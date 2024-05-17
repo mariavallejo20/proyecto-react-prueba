@@ -1,9 +1,9 @@
 import React from 'react';
-import { Films } from './components/Films';
-import { Characters } from './components/Characters';
-import { FavoritesFilms } from './components/FavoritesFilms';
-import { Planets } from './components/Planets';
-import { Start } from './components/Start';
+import { Films } from './presentation/view/Films';
+import { Characters } from './presentation/view/Characters';
+import { FavoritesFilms } from './presentation/view/FavoritesFilms';
+import { Planets } from './presentation/view/Planets';
+import { Start } from './presentation/view/Start';
 import { Routes, Route } from "react-router-dom";
 import './App.css';
 
