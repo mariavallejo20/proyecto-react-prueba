@@ -1,15 +1,9 @@
 import React from 'react'
 // @ts-ignore
-import Star_Wars_Logo from '../img/Star_Wars_Logo.png'
+import Star_Wars_Logo from '../../img/Star_Wars_Logo.png'
 import { Link } from 'react-router-dom'
 
-// declare module "*.png" {
-//     const value: any;
-//     export = value;
-// }
-  
-
-const Start: React.FC = () =>
+function Start()
 {
     return(
         <header className="App-header">
