@@ -1,4 +1,4 @@
-// src/presentation/viewmodels/useCharactersFilmsListViewModel.ts
+
 import { useState, useEffect } from 'react';
 import { Film } from '../../domain/entities/Film';
 import { fetchDataFromAPI } from '../../data/network/api';
