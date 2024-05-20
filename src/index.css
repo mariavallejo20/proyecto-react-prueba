@@ -65,6 +65,7 @@ body {
   border-radius: 10px;
   align-items: flex-start;
   padding: 10px;
+  position:relative
 }
 
 .character-container h3 {
@@ -210,6 +211,23 @@ body {
   background-color: #f8f8f8; 
   border-color: #999; 
   color: #585858; 
+}
+
+.fav-remove-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  color: black; 
+  border: none; 
+  padding: 20px 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+}
+
+.fav-remove-button:hover {
+  color:red;
 }
 
 

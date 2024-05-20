@@ -11,6 +11,12 @@ const FavoritesFilmCard: React.FC<Props> = ({ film }) => {
     return (
         <div className='character-container'>
             <div>
+            <button
+                type='button'
+                className='fav-remove-button'
+            >
+                X
+            </button>
                 <h3>{film.title}</h3>
                 <p>Director: {film.director}</p>
                 <p>Productor: {film.producer}</p>
